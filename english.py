@@ -131,4 +131,8 @@ specialCharacters = {
     '@': '000100100000'
 }
 
+punctuations ={
+    ',' : '010000'
+}
+
 

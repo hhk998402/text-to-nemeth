@@ -10,7 +10,29 @@ numericIndicator = False
 
 while(index<len(checkStr)):
 
-    # Checking if the character is a digit
+    if(checkStr[index]==' '):
+        brl.append('000000')
+        index += 1
+        continue
+
+    #Checking if the character is a decimal point (Page 11)
+    if(checkStr[index]=='.'):
+        if(index<len(checkStr)-1 and checkStr[index+1].isdigit()):
+            if(index==0 or (index>0 and not checkStr[index-1].isdigit())):
+                brl.append(nm.numericIndicator)
+                numericIndicator = True
+            brl.append(nm.decimalPoint)
+            index += 1
+            continue
+        else:
+            brl.append(eng.specialCharacters['.'])
+            numericIndicator = False
+            index += 1
+            continue
+
+
+    # Checking if the character is a digit (Page 12)
+    print(checkStr[index])
     if(checkStr[index].isdigit()):
         if(not numericIndicator):
             brl.append(nm.numericIndicator)
@@ -19,7 +41,7 @@ while(index<len(checkStr)):
         index += 1
         continue
 
-    #Checking if the character is a mathematical symbol
+    #Checking if the character is a mathematical symbol (Page 12)
     if(checkStr[index] in nm.mathsym.keys()):
         data = nm.mathsym[checkStr[index]]
         print(len(data),checkStr[index])
@@ -32,12 +54,17 @@ while(index<len(checkStr)):
         index += 1
         continue
 
-    #Checking if the character is an alphabet
+    #Checking if the character is an alphabet (Page 12)
     if(checkStr[index].isalpha()):
         if(checkStr[index].isupper()):
             brl.append(eng.specialCharacters['%capital'])
         brl.append(eng.alphabet[checkStr[index].lower()])
         numericIndicator = False        #Setting numericIndicator to False allows for the numeric indicator to be added later on
+        index += 1
+        continue
+
+    if(checkStr[index] in eng.punctuations.keys()):
+        brl.append(eng.punctuations[checkStr[index]])
         index += 1
         continue
 
