@@ -41,3 +41,4 @@ mathsym={'!': '111101',
 
 numericIndicator = '001111'
 decimalPoint = '000101'
+mathComma = '000001'

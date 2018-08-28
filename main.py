@@ -10,9 +10,20 @@ numericIndicator = False
 
 while(index<len(checkStr)):
 
+    #Accommodating for white space
     if(checkStr[index]==' '):
         brl.append('000000')
         index += 1
+        continue
+
+    # if(checkStr[index]=='"' or checkStr[index]=="'"):
+
+    # Checking for ^, indicative of need to use superscript indicator
+    if(checkStr[index] == '^'):
+        brl.append(eng.punctuations['%superscript'])
+        index += 1
+        numericIndicator = True     # Setting NumericIndicator to True prevents it being appended
+                                    # before number in the power
         continue
 
     #Checking if the character is a decimal point (Page 11)
@@ -30,6 +41,12 @@ while(index<len(checkStr)):
             index += 1
             continue
 
+    #Checking if the comma is a mathematics comma or not
+    if(checkStr[index]==','):
+        if(index < len(checkStr) - 1 and checkStr[index + 1].isdigit() and checkStr[index-1].isdigit()):
+            brl.append(nm.mathComma)
+            index += 1
+            continue
 
     # Checking if the character is a digit (Page 12)
     print(checkStr[index])

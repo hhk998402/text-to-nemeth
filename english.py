@@ -60,42 +60,42 @@ alphabet = {
     '-self': '110100'
 }
 
-contractions = {
-    'but': 'b',
-    'can': 'c',
-    'do': 'd',
-    'every': 'e',
-    'from': 'f',
-    'go': 'g',
-    'have': 'h',
-    'just': 'j',
-    'knowledge': 'k',
-    'more': 'm',
-    'not': 'n',
-    'people': 'p',
-    'quite': 'q',
-    'rather': 'r',
-    'so': 's',
-    'that': 't',
-    'still': 'st',
-    'child': 'ch',
-    'us': 'u',
-    'very': 'v',
-    'it': 'x',
-    'you': 'y',
-    'as': 'z',
-    'shall': 'sh',
-    'this': 'th',
-    'which': 'wh',
-    'out': 'ou',
-    'will': 'w',
-    'be': 'bb',
-    'en': 'enough',
-    'to': 'ff',
-    'were': 'gg',
-    'was': '”',
-    'braille': 'brl'
-}
+# contractions = {
+# #     'but': 'b',
+# #     'can': 'c',
+# #     'do': 'd',
+# #     'every': 'e',
+# #     'from': 'f',
+# #     'go': 'g',
+# #     'have': 'h',
+# #     'just': 'j',
+# #     'knowledge': 'k',
+# #     'more': 'm',
+# #     'not': 'n',
+# #     'people': 'p',
+# #     'quite': 'q',
+# #     'rather': 'r',
+# #     'so': 's',
+# #     'that': 't',
+# #     'still': 'st',
+# #     'child': 'ch',
+# #     'us': 'u',
+# #     'very': 'v',
+# #     'it': 'x',
+# #     'you': 'y',
+# #     'as': 'z',
+# #     'shall': 'sh',
+# #     'this': 'th',
+# #     'which': 'wh',
+# #     'out': 'ou',
+# #     'will': 'w',
+# #     'be': 'bb',
+# #     'en': 'enough',
+# #     'to': 'ff',
+# #     'were': 'gg',
+# #     'was': '”',
+# #     'braille': 'brl'
+# # }
 
 specialCharacters = {
     '!': '011010',
@@ -132,7 +132,8 @@ specialCharacters = {
 }
 
 punctuations ={
-    ',' : '010000'
+    ',' : '010000',
+    '%superscript' : '000110'
 }
 
 
