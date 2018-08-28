@@ -21,8 +21,9 @@ GUI for testing will be added later.
     <h4>Decimal Point Usage</h4>
     <img src='https://github.com/hhk998402/text-to-nemeth/blob/master/SampleImages/DecimalPoint_1.png'>
     <br>
-  <code>The decimal point usage is different based on its usage. The <b>above</b> image has an example where a number exists on either side of the decimal point. The usage of the numeric indicator is different in the <b>above</b> and <b>below></b> images.</code>
-    <img src='https://github.com/hhk998402/text-to-nemeth/blob/master/SampleImages/DecimalPoint_1.png'>   
+  <code>The decimal point usage is different based on its usage. The <b>above</b> image has an example where a number exists on either side of the decimal point. The usage of the numeric indicator is different in the <b>above</b> and <b>below</b> images.</code>
+    <br>
+    <img src='https://github.com/hhk998402/text-to-nemeth/blob/master/SampleImages/DecimalPoint_2.png'>   
     <p>Refer to <a href='https://github.com/hhk998402/text-to-nemeth/blob/master/ReferredDocuments/nemeth_Rules.pdf'>DOC 1</a> for more <b>(PAGE 11,14)</b></p>
   </li>
   <li>    
