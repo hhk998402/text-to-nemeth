@@ -25,8 +25,7 @@ GUI for testing will be added later.
     <br>
     <img src='https://github.com/hhk998402/text-to-nemeth/blob/master/SampleImages/DecimalPoint_2.png'>   
     <p>Refer to <a href='https://github.com/hhk998402/text-to-nemeth/blob/master/ReferredDocuments/nemeth_Rules.pdf'>DOC 1</a> for more <b>(PAGE 11,14)</b></p>
-  </li>
-  <li>    
+  </li>   
   <li>
     <h4>Multiplication Cross Operator</h4>
     <img src='https://github.com/hhk998402/text-to-nemeth/blob/master/SampleImages/MultiplicationExample.png'>
