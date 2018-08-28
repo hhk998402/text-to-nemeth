@@ -40,4 +40,11 @@ GUI for testing will be added later.
     <code>The '^' operator is used in the code to denote Superscript Indicator. Also, the Numeric Indicator seems to be ignored for exponents, and the same convention has been followed in the code</code>
     <p>Refer to <a href='https://github.com/hhk998402/text-to-nemeth/blob/master/ReferredDocuments/Nemeth-BrailleHandbookEdnaLaudenslager.pdf'>DOC 2</a> for more <b>(PAGE 100)</b></p>
   </li>
+  <li>
+    <h4>Use of Mathematical Comma</h4>
+    <img src='https://github.com/hhk998402/text-to-nemeth/blob/master/SampleImages/MathematicalComma.png'>
+    <br>
+    <code>The comma used in between numbers is unique to the english usage of the comma. Both have been addressed in the code.</code>
+    <p>Refer to <a href='https://github.com/hhk998402/text-to-nemeth/blob/master/ReferredDocuments/Nemeth-BrailleHandbookEdnaLaudenslager.pdf'>DOC 2</a> for more <b>(PAGE 27)</b></p>
+  </li>  
 </ul>
