@@ -80,6 +80,7 @@ while(index<len(checkStr)):
         index += 1
         continue
 
+    #Checking for English Punctuations
     if(checkStr[index] in eng.punctuations.keys()):
         brl.append(eng.punctuations[checkStr[index]])
         index += 1
