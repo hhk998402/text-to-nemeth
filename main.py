@@ -86,6 +86,10 @@ while(index<len(checkStr)):
         index += 1
         continue
 
+    if(checkStr[index] in eng.specialCharacters.keys()):
+        brl.append(eng.specialCharacters[checkStr[index]])
+        index += 1
+        continue
 
 # for i in 'hemant':
 #     brl.append(alphabets[i])
