@@ -11,4 +11,8 @@ GUI for testing will be added later.
 
 <ul>
   <li>
-    <h5>Multiplication Cross Operator</h5>
+    <h4>Multiplication Cross Operator</h4>
+    
+    <img src='https://github.com/hhk998402/text-to-nemeth/blob/master/SampleImages/MultiplicationExample.png'>
+  </li>
+</ul>
