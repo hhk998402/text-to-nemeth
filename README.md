@@ -1,11 +1,23 @@
 # text-to-nemeth
 
-Please run main.py to check
-
-GUI for testing will be added later.
-
-23-Aug-2018:  Currently working for 1+x+y=0 and similar examples. 
-              Decimal points also working
+<h3>Highlights</h3>
+<ul>
+  <li>
+    <p>Run <code>GUI.py</code> for testing the parser</p>
+  </li>
+  <li>
+     <p>The <code>main.py</code> contains the main text2nemeth conversion function</p>
+  </li>
+  <li>
+    <p>The <code>brl2unicode.py</code> contains the function to convert the obtained braille character to unicode for printing</p>
+  </li>
+  <li>
+    <p>The <code>english.py</code> contains the dictionary(s) of relevant english alphabets and punctuations
+  </li>
+  <li>
+    <p>The <code>nemethSystem.py</code> contains the dictionary(s) of relevant nemeth symbols and operators</p>
+  </li>
+</ul>
               
 <h3>Mathematic Functions and Operators that are currently supported</h3>
 
